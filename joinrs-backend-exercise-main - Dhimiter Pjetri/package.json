@@ -1,0 +1,23 @@
+{
+  "name": "joinrs-backend-exercise",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap",
+    "test:integration": "tap test/*.test.js",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fastify": "^4.26.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "tap": "^18.7.0"
+  }
+}
